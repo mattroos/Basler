@@ -1,0 +1,5 @@
+<map id="Basler_UsbCameraParams::CUsbCameraParams_Params" name="Basler_UsbCameraParams::CUsbCameraParams_Params">
+<area shape="rect" id="node2" href="$class_pylon_1_1_c_pylon_device_proxy_t.html" title="Pylon::CPylonDeviceProxy\lT\&lt; Basler_UsbCameraParams\l::CUsbCameraParams_Params \&gt;" alt="" coords="4,96,213,152"/>
+<area shape="rect" id="node3" href="$class_pylon_1_1_c_pylon_usb_camera_t.html" title="Pylon::CPylonUsbCameraT\l\&lt; Basler_UsbCameraParams\l::CUsbCameraParams_Params \&gt;" alt="" coords="4,200,213,256"/>
+<area shape="rect" id="node4" href="$class_pylon_1_1_c_basler_usb_camera.html" title="Low Level API: The camera class for Basler USB3 Vision camera devices. " alt="" coords="23,304,195,331"/>
+</map>

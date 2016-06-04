@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_basler___gig_e_chunk_data_1_1_c_gig_e_chunk_data___params.html" title="Basler generic GigEVision camera interface. " alt="" coords="6,5,186,46"/>
+<area shape="rect" id="node2" href="$class_pylon_1_1_c_basler_gig_e_grab_result_data.html" title="The GigE specific grab result data. " alt="" coords="235,44,459,71"/>
+<area shape="rect" id="node3" href="$class_basler___usb_chunk_data_1_1_c_usb_chunk_data___params.html" title="Basler USB3Vision camera interface. " alt="" coords="9,122,183,163"/>
+<area shape="rect" id="node4" href="$class_pylon_1_1_c_basler_usb_grab_result_data.html" title="The USB specific grab result data class. " alt="" coords="237,99,456,125"/>
+<area shape="rect" id="node5" href="$class_pylon_1_1_c_grab_result_data.html" title="Makes the data for one grabbed buffer available. " alt="" coords="16,71,176,97"/>
+</map>

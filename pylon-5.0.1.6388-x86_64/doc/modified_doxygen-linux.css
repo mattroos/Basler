@@ -1,0 +1,42 @@
+div.fragment {
+	padding:0.5em;
+	margin-bottom:1em;
+}
+
+.tabs, .tabs2, .tabs3 {
+	background-image: url('tab_2.png');
+}
+
+.tabs2 {
+	margin-top:1px;
+}
+
+.tabs3 {
+    margin-top:1px;
+}
+
+.tablist li {
+	background-image: url('tab_2.png');
+}
+
+.tablist li.current a {
+	background-image: url('tab_1.png');
+	color: #646363;
+	 text-shadow: 0px 1px 1px rgba(255,255,255,0.9);
+}
+
+.tablist a {
+	background-image:url('tab_4.png');
+	text-shadow: 0px 1px 1px rgba(0,0,0, 0.6);
+	color: #fff;
+}
+
+.tablist a:visited {
+    color:#fff;
+}
+
+.tablist a:hover {
+	background-image: url('tab_3.png');
+	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.7);
+	color: #fff;
+}

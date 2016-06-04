@@ -1,0 +1,8 @@
+<map id="Pylon::CInfoBase" name="Pylon::CInfoBase">
+<area shape="rect" id="node3" href="$class_pylon_1_1_c_device_info.html" title="Holds information about an enumerated device. " alt="" coords="145,155,275,181"/>
+<area shape="rect" id="node6" href="$class_pylon_1_1_c_interface_info.html" title="Class used for storing information about an interface object provided by a transport layer..." alt="" coords="299,155,441,181"/>
+<area shape="rect" id="node7" href="$class_pylon_1_1_c_tl_info.html" title="Class used for storing the result of the transport layer enumeration process. " alt="" coords="466,155,568,181"/>
+<area shape="rect" id="node2" href="$struct_pylon_1_1_i_properties.html" title="interface for a property container " alt="" coords="309,5,432,32"/>
+<area shape="rect" id="node4" href="$class_pylon_1_1_c_basler_gig_e_device_info.html" title="Implementation of the GiGE specific device info object. " alt="" coords="5,229,200,256"/>
+<area shape="rect" id="node5" href="$class_pylon_1_1_c_basler_usb_device_info.html" title="PylonUsb specific Device Info object. " alt="" coords="225,229,412,256"/>
+</map>

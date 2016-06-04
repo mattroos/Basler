@@ -1,0 +1,5 @@
+<map id="Pylon::CPylonImageBase" name="Pylon::CPylonImageBase">
+<area shape="rect" id="node4" href="$class_pylon_1_1_c_pylon_image.html" title="Describes an image. " alt="" coords="19,229,156,256"/>
+<area shape="rect" id="node2" href="$struct_pylon_1_1_i_reusable_image.html" title="Extends the IImage interface to be able to reuse the image&#39;s resources to represent a different image..." alt="" coords="11,80,164,107"/>
+<area shape="rect" id="node3" href="$struct_pylon_1_1_i_image.html" title="Usable to access image properties and image buffer. " alt="" coords="38,5,137,32"/>
+</map>

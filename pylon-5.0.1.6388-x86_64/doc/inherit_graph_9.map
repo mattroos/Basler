@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_basler___usb_t_l_params_1_1_c_usb_t_l_params___params.html" title="Interface to the USB transport layer specific parameters. " alt="" coords="6,11,175,53"/>
+<area shape="rect" id="node2" href="$class_pylon_1_1_c_node_map_proxy_t.html" title="Pylon::CNodeMapProxyT\l\&lt; Basler_UsbTLParams\l::CUsbTLParams_Params \&gt;" alt="" coords="225,4,405,60"/>
+<area shape="rect" id="node3" href="$class_pylon_1_1_c_pylon_usb_t_l_params.html" title="Low Level API: Class for pylon USB3 Vision cameras providing access to transport layer related parame..." alt="" coords="454,19,637,45"/>
+</map>

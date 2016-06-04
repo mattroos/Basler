@@ -1,0 +1,5 @@
+<map id="Basler_UsbStreamParams::CUsbStreamParams_Params" name="Basler_UsbStreamParams::CUsbStreamParams_Params">
+<area shape="rect" id="node2" href="$class_pylon_1_1_c_node_map_proxy_t.html" title="Pylon::CNodeMapProxyT\l\&lt; Basler_UsbStreamParams\l::CUsbStreamParams_Params \&gt;" alt="" coords="6,96,212,152"/>
+<area shape="rect" id="node3" href="$class_pylon_1_1_c_stream_grabber_proxy_t.html" title="Pylon::CStreamGrabberProxy\lT\&lt; Basler_UsbStreamParams\l::CUsbStreamParams_Params \&gt;" alt="" coords="6,200,212,256"/>
+<area shape="rect" id="node4" href="$class_pylon_1_1_c_pylon_usb_stream_grabber.html" title="Low Level API: Class for pylon USB3 Vision cameras providing access to stream grabber related methods..." alt="" coords="4,304,213,331"/>
+</map>

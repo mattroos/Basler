@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_pylon_1_1_c_pylon_device_proxy_t.html" title="Low Level API: The camera class for generic camera devices. " alt="" coords="6,38,178,79"/>
+<area shape="rect" id="node2" href="$class_pylon_1_1_c_pylon_gig_e_device_proxy_t.html" title="Low Level API: The camera class for GigE Vision camera devices. " alt="" coords="227,5,427,46"/>
+<area shape="rect" id="node4" href="$class_pylon_1_1_c_pylon_usb_camera_t.html" title="Low Level API: The camera class for pylon USB3 Vision camera devices. " alt="" coords="239,70,415,111"/>
+<area shape="rect" id="node3" href="$class_pylon_1_1_c_pylon_gig_e_camera_t.html" title="Low Level API: The camera class for pylon GigE Vision camera devices. " alt="" coords="475,5,658,46"/>
+</map>

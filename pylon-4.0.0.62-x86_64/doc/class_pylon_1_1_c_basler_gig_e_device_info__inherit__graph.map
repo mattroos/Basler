@@ -1,0 +1,5 @@
+<map id="Pylon::CBaslerGigEDeviceInfo" name="Pylon::CBaslerGigEDeviceInfo">
+<area shape="rect" id="node2" href="$class_pylon_1_1_c_device_info.html" title="Holds information about an enumerated device. " alt="" coords="37,155,167,181"/>
+<area shape="rect" id="node3" href="$class_pylon_1_1_c_info_base.html" title="Base implementation for PYLON info container. " alt="" coords="43,80,163,107"/>
+<area shape="rect" id="node4" href="$struct_pylon_1_1_i_properties.html" title="interface for a property container " alt="" coords="41,5,164,32"/>
+</map>

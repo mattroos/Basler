@@ -1,0 +1,6 @@
+<map id="Pylon::IImage" name="Pylon::IImage">
+<area shape="rect" id="node2" href="$class_pylon_1_1_c_grab_result_image_t.html" title="Low Level API: Adapts grab result to Pylon::IImage. " alt="" coords="5,81,181,122"/>
+<area shape="rect" id="node3" href="$struct_pylon_1_1_i_reusable_image.html" title="Extends the IImage interface to be able to reuse the image&#39;s resources to represent a different image..." alt="" coords="206,88,359,115"/>
+<area shape="rect" id="node4" href="$class_pylon_1_1_c_pylon_image_base.html" title="Provides basic functionality for pylon image classes. " alt="" coords="199,171,365,197"/>
+<area shape="rect" id="node5" href="$class_pylon_1_1_c_pylon_image.html" title="Describes an image. " alt="" coords="214,245,351,272"/>
+</map>

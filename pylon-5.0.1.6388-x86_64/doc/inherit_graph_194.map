@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$struct_pylon_1_1_i_image.html" title="Usable to access image properties and image buffer. " alt="" coords="6,41,106,68"/>
+<area shape="rect" id="node2" href="$class_pylon_1_1_c_grab_result_image_t.html" title="Low Level API: Adapts grab result to Pylon::IImage. " alt="" coords="155,5,333,46"/>
+<area shape="rect" id="node3" href="$struct_pylon_1_1_i_reusable_image.html" title="Extends the IImage interface to be able to reuse the image&#39;s resources to represent a different image..." alt="" coords="167,71,321,97"/>
+<area shape="rect" id="node4" href="$class_pylon_1_1_c_pylon_image_base.html" title="Provides basic functionality for pylon image classes. " alt="" coords="382,71,549,97"/>
+<area shape="rect" id="node5" href="$class_pylon_1_1_c_pylon_image.html" title="Describes an image. " alt="" coords="598,71,735,97"/>
+</map>

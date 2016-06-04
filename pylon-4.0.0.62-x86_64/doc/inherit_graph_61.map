@@ -1,0 +1,4 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_pylon_1_1_c_pixel_type_mapper.html" title="A simple pixeltypemapper (maps device specific pixelformats read from device&#45;node map to pylon pixelt..." alt="" coords="5,12,173,39"/>
+<area shape="rect" id="node2" href="$class_pylon_1_1_c_camera_pixel_type_mapper_t.html" title="A camera specific pixeltypemapper (maps device specific pixelformats contained in the generated camer..." alt="" coords="221,5,435,46"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="Pylon::IGigETransportLayer" name="Pylon::IGigETransportLayer">
+<area shape="rect" id="node2" href="$struct_pylon_1_1_i_transport_layer.html" title="The interface of Transport Layer objects. " alt="" coords="19,80,167,107"/>
+<area shape="rect" id="node3" href="$struct_pylon_1_1_i_device_factory.html" title="Interface to be implemented by device factories used to create devices. " alt="" coords="20,5,167,32"/>
+</map>

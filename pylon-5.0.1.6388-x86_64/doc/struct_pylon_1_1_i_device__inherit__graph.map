@@ -1,0 +1,4 @@
+<map id="Pylon::IDevice" name="Pylon::IDevice">
+<area shape="rect" id="node2" href="$struct_pylon_1_1_i_pylon_device.html" title="Low Level API: Interface for camera objects. " alt="" coords="19,80,153,107"/>
+<area shape="rect" id="node3" href="$struct_pylon_1_1_i_pylon_gig_e_device.html" title="Low Level API: The interface for Basler GigE camera devices. " alt="" coords="5,155,168,181"/>
+</map>

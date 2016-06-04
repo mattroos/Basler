@@ -1,0 +1,6 @@
+<map id="Pylon::CConfigurationEventHandler" name="Pylon::CConfigurationEventHandler">
+<area shape="rect" id="node2" href="$class_pylon_1_1_c_acquire_continuous_configuration.html" title="Changes the configuration of the camera to free&#45;running continuous acquisition. " alt="" coords="258,5,435,46"/>
+<area shape="rect" id="node3" href="$class_pylon_1_1_c_acquire_single_frame_configuration.html" title="An instant camera configuration for single frame acquisition, Use together with CInstantCamera::GrabO..." alt="" coords="253,70,440,111"/>
+<area shape="rect" id="node4" href="$class_pylon_1_1_c_action_trigger_configuration.html" title="Changes the configuration of the camera so that it is triggered by the first available action command..." alt="" coords="236,136,457,163"/>
+<area shape="rect" id="node5" href="$class_pylon_1_1_c_software_trigger_configuration.html" title="Changes the configuration of the camera so that the acquisition of frames is triggered by software tr..." alt="" coords="229,187,464,213"/>
+</map>

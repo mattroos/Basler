@@ -1,0 +1,20 @@
+
+
+Install OpenCV 3.0 using this script:
+------------------------------------
+https://help.ubuntu.com/community/OpenCV
+
+
+Snippet of C++ code for converting Basler/pylon image to OpenCV Mat image (and saving image to file):
+----------------------------------------------------------------------------------------------------
+camera.RetrieveResult( 5000, ptrGrabResult, TimeoutHandling_ThrowException);
+if (ptrGrabResult->GrabSucceeded())
+{
+   int frameCols = ptrGrabResult->GetWidth();
+   int frameRows = ptrGrabResult->GetHeight();
+   Mat theFrame = cv::Mat(frameRows, frameCols, CV_8UC1);
+   memcpy(theFrame.ptr(),(uint8_t *)ptrGrabResult->GetBuffer(),frameCols*frameRows);
+   imwrite("GrabbedImageCV.png",theFrame);
+}
+
+

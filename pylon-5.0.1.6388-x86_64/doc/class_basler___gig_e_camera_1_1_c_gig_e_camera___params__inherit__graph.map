@@ -1,0 +1,6 @@
+<map id="Basler_GigECamera::CGigECamera_Params" name="Basler_GigECamera::CGigECamera_Params">
+<area shape="rect" id="node2" href="$class_pylon_1_1_c_pylon_device_proxy_t.html" title="Pylon::CPylonDeviceProxy\lT\&lt; Basler_GigECamera::\lCGigECamera_Params \&gt;" alt="" coords="42,96,213,152"/>
+<area shape="rect" id="node3" href="$class_pylon_1_1_c_pylon_gig_e_device_proxy_t.html" title="Pylon::CPylonGigEDeviceProxy\lT\&lt; Basler_GigECamera::CGigECamera\l_Params \&gt;" alt="" coords="5,200,251,256"/>
+<area shape="rect" id="node4" href="$class_pylon_1_1_c_pylon_gig_e_camera_t.html" title="Pylon::CPylonGigECameraT\l\&lt; Basler_GigECamera::CGigECamera\l_Params \&gt;" alt="" coords="9,304,245,360"/>
+<area shape="rect" id="node5" href="$class_pylon_1_1_c_basler_gig_e_camera.html" title="Low Level API: The camera class for Basler GigE Vision camera devices. " alt="" coords="39,408,217,435"/>
+</map>

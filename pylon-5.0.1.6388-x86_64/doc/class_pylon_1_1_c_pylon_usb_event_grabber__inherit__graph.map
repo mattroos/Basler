@@ -1,0 +1,5 @@
+<map id="Pylon::CPylonUsbEventGrabber" name="Pylon::CPylonUsbEventGrabber">
+<area shape="rect" id="node2" href="$class_pylon_1_1_c_event_grabber_proxy_t.html" title="Pylon::CEventGrabberProxy\lT\&lt; Basler_UsbEventParams\l::CUsbEventParams_Params \&gt;" alt="" coords="7,200,204,256"/>
+<area shape="rect" id="node3" href="$class_pylon_1_1_c_node_map_proxy_t.html" title="Pylon::CNodeMapProxyT\l\&lt; Basler_UsbEventParams\l::CUsbEventParams_Params \&gt;" alt="" coords="7,96,204,152"/>
+<area shape="rect" id="node4" href="$class_basler___usb_event_params_1_1_c_usb_event_params___params.html" title="Interface to the PylonUsb Event Grabber parameters. " alt="" coords="12,6,199,47"/>
+</map>

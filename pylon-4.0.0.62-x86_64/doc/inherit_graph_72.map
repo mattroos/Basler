@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$struct_pylon_1_1_i_properties.html" title="interface for a property container " alt="" coords="5,81,128,108"/>
+<area shape="rect" id="node2" href="$class_pylon_1_1_c_info_base.html" title="Base implementation for PYLON info container. " alt="" coords="176,81,296,108"/>
+<area shape="rect" id="node3" href="$class_pylon_1_1_c_device_info.html" title="Holds information about an enumerated device. " alt="" coords="351,31,481,57"/>
+<area shape="rect" id="node6" href="$class_pylon_1_1_c_interface_info.html" title="Class used for storing information about an interface object provided by a transport layer..." alt="" coords="345,81,487,108"/>
+<area shape="rect" id="node7" href="$class_pylon_1_1_c_tl_info.html" title="Class used for storing the result of the transport layer enumeration process. " alt="" coords="365,132,467,159"/>
+<area shape="rect" id="node4" href="$class_pylon_1_1_c_basler_gig_e_device_info.html" title="Implementation of the GiGE specific device info object. " alt="" coords="536,5,731,32"/>
+<area shape="rect" id="node5" href="$class_pylon_1_1_c_basler_usb_device_info.html" title="PylonUsb specific Device Info object. " alt="" coords="539,56,727,83"/>
+</map>

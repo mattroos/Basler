@@ -1,0 +1,12 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_pylon_1_1_generic_exception.html" title="pylon exception class " alt="" coords="6,208,167,235"/>
+<area shape="rect" id="node2" href="$class_pylon_1_1_access_exception.html" title="Exception thrown to indicate an access error. (i.E. A when trying to set a read&#45;only value) ..." alt="" coords="242,5,401,32"/>
+<area shape="rect" id="node3" href="$class_pylon_1_1_bad_alloc_exception.html" title="Exception thrown if memory could not be allocated. " alt="" coords="237,56,405,83"/>
+<area shape="rect" id="node4" href="$class_pylon_1_1_dynamic_cast_exception.html" title="Exception thrown to indicate a dynamic cast has failed. Usually this means a value is not of expected..." alt="" coords="225,107,417,133"/>
+<area shape="rect" id="node5" href="$class_pylon_1_1_invalid_argument_exception.html" title="Exception thrown if an argument passed is invalid. " alt="" coords="217,157,426,184"/>
+<area shape="rect" id="node6" href="$class_pylon_1_1_logical_error_exception.html" title="Exception thrown to indicate logical errors in program flow. " alt="" coords="229,208,413,235"/>
+<area shape="rect" id="node7" href="$class_pylon_1_1_out_of_range_exception.html" title="Exception thrown if an argument is out of range. " alt="" coords="227,259,415,285"/>
+<area shape="rect" id="node8" href="$class_pylon_1_1_property_exception.html" title="Exception thrown if a property access fails. " alt="" coords="239,309,403,336"/>
+<area shape="rect" id="node9" href="$class_pylon_1_1_runtime_exception.html" title="Exception thrown if a runtime error occurs. " alt="" coords="239,360,403,387"/>
+<area shape="rect" id="node10" href="$class_pylon_1_1_timeout_exception.html" title="Exception thrown when a timeout has elapsed. " alt="" coords="240,411,403,437"/>
+</map>

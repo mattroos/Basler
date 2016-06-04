@@ -1,0 +1,4 @@
+<map id="Pylon::CGrabResultData" name="Pylon::CGrabResultData">
+<area shape="rect" id="node2" href="$class_pylon_1_1_c_basler_gig_e_grab_result_data.html" title="The GigE specific grab result data. " alt="" coords="5,80,228,107"/>
+<area shape="rect" id="node3" href="$class_pylon_1_1_c_basler_usb_grab_result_data.html" title="The USB specific grab result data class. " alt="" coords="253,80,472,107"/>
+</map>

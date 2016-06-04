@@ -1,0 +1,157 @@
+pylon 5 Camera Software Suite for Linux
+
+RELEASE NOTES
+
+################################################################################
+
+RELEASE DATE:       2015-12-18
+
+VERSION:            5.0.1
+
+PRECEDING VERSION:  4.0.0
+
+################################################################################
+
+NEW FEATURES / CHANGES
+=========================
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ATTENTION!
+pylon 5 introduces breaking changes regarding the C++ API. Existing code must be
+reviewed and changed where necessary even if it compiles without errors. Basler
+strongly recommends reading the Migration topic in the pylon C++ API
+documentation that gets installed with pylon to find out the exact nature of the
+changes.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+* pylon Camera Software Suite: Updated to the latest GenICam reference implementation v3.0,
+  introducing big improvements in performance and reduced memory footprint.
+* pylon Camera Software Suite: The config file registry is now optional and will not be installed
+  anymore. It is possible to add a folder named ConfigFileRegistry in the share/pylon/ directory
+  for adding additional binding rule files if needed. The name of a binding rule file must start
+  with the prefix "Rules".
+* The folder layout of the installation has been changed to simplify copy deployment.
+* The pylon binaries can now be executed directly without a surrounding script setting some
+  environment variables.
+* SDK: pylon now supports copy deployment.
+* SDK: Deprecated C++ header files have been removed.
+* SDK: Names of C/C++ shared objects have changed. Therefore, project settings need to be adjusted.
+* SDK: C++ Exceptions are no longer derived from std::exception.
+* SDK: PylonInitiallize() and PylonTerminate() C++ API functions are now reference counted.
+  Each call to PylonInitialize() must be balanced by a call to PylonTerminate().
+* SDK: Added support for recent versions of Basler USB 3.0 and GigE cameras.
+* SDK: Added support for BayerGR10p, BayerGB10p, BayerRG10p, and BayerBG10p pixel formats.
+* SDK: CInstantCamera has been extended by the CanWaitForFrameTriggerReady() method for 
+  better support of dart and pulse camera models.
+* SDK: The C++ sample code has been improved for better support of dart and pulse
+  camera models.
+* pylon Viewer: The Save Image dialog now remembers the selected image type.
+  Additionally, the image name is preset to a unique default each time you save an image.
+* USB3: Changed the default value for 'Maximum Transfer Size' for USB2 cameras to 64 kB.
+* USB3: Support for dart and pulse camera devices has been added.
+* pylon Viewer: Added the "Automatic Image Adjustment" feature to automatically make all settings 
+  necessary to get a good image under current conditions. This feature is available for ace,
+  dart and pulse cameras.
+* pylon Viewer: Favorites: For faster access to frequently used features,
+  features can be placed in the "Favorites" category either by using the context menu or by using drag & 
+  drop.
+* pylon Viewer: Improved the fps display.
+* SDK: Added support and samples for the sequencer feature of USB cameras.
+* pylon Viewer: Throughput and bandwidth values are now consistently depicted in MB/s 
+  (1,000,0000 Byte/s) instead of MiB/s (1,048,576  Byte/s).
+* pylon Viewer: Added context menus to the entries in the "Devices" pane.
+* pylon Viewer: Cameras can be explicitly opened and closed. Please note that a camera is no longer 
+  opened automatically by a single click. To open a camera, double-click the desired entry in the 
+  "Devices" group, or select the desired entry and open the camera via the context menu or toolbar 
+  button.
+* pylon Viewer: Added a message log window informing the user about notes, warnings, and errors.
+* plon Viewer: By default, the viewer now displays incompletely grabbed or corrupted frames. The 
+  number of successfully grabbed and corrupted frames is shown in the status bar of the image windows.
+* USB3: Added error message texts to the statistics parameters provided by the pylon USB Transport Layer 
+  and Stream Grabber objects.
+* GigE Vision: The Stream Grabber's statistic data remains readable after the grabbing has stopped.
+* SDK: "Legacy" samples have been added illustrating how to add USB 3.0 support to applications still
+  using the pylon low-level API.
+* SDK: Added a feature called "migration mode" to simplify the transition of existing applications 
+  to USB 3.0.
+* SDK: Added documentation and sample that illustrate the Buffer Factory. The Buffer Factory enables 
+  the Instant Camera classes to use memory provided by the application.
+* GigE Vision: Added support for action commands and scheduled action commands allowing to trigger multiple cameras simultaneously.
+* USB3: Added/improved samples demonstrating event handling.
+* IP Configurator: Added facilities for providing user feedback and contacting Basler support by email.
+* Documentation: Updated migration guide.
+* SDK: CameraArray classes for USB and GigE Cameras have been added.
+* SDK: pylon-config has been added to simplify the inclusion of pylon in different build systems.
+* SDK: Log messages now contain meaningful content instead of the error number only.
+* SDK: No environment variables are required anymore to run pylon.
+
+
+CORRECTIONS
+====================
+
+* pylon Viewer: Fixed an issue where the pylon Viewer could crash when closing a camera.
+* IP Configurator: Fixed message text in Contact Support dialog.
+* USB3: Fixed an issue where accessing camera parameters could introduce lag to image streaming.
+* GigE: Fixed an issue that caused the enumeration of the cameras to fail when using a very large
+  number of network adapters.
+* SDK: Fixed missing entry for Mono10p pixel type in Pylon::CPixelTypeMapper class. Mono10p can
+  now be displayed by the pylon Viewer.     
+* pylon Viewer: Fixed a problem that caused the pylon Viewer to generate additional
+  CPU load in idle state.
+* SDK: The SoftwareTrigger Configuration class did not work correctly with linescan cameras.
+* GigE: The device enumeration mechanism may have missed cameras if a certain number of connected 
+  cameras was exceeded.
+* USB3: Fixed a memory leak that occurred when IDeviceFactory::IsDeviceAccessible for USB 3.0 cameras 
+  was called.
+* SDK: ITransportLayer::ReleaseTl() did not always free the resources allocated by a transport layer.
+  This fix may affect applications accidentally calling ReleaseTl() too often. Ensure
+  that for every call of CTlFactory::CreateTl() there is only one ReleaseTl() call.
+* SDK: Fixed thread-safety issues with the CTlFactory class.
+* pylon Viewer: No camera features were shown if a device could only be opened at second attempt.
+* pylon Viewer: Fixed problems occurring when enabling the Line Pitch camera feature.
+* pylon Viewer: The "Copy Camera Features" menu entry only became available after the first image had
+  been grabbed.
+* USB3: Exception may have been thrown when closing the camera.
+* USB3: Fixed problems occurring when enabling the Line Pitch camera feature.
+* USB3: Statistics: Incomplete frames were counted as 'missed frames'.
+* GigE: Fixed resource leak that occurred when using action commands.
+* USB3: Fixed a bug in the device enumeration which may have caused an incomplete USB 3.0 device list.
+* pylon Viewer: Fixed an issue which might cause the pylon Viewer to block in case of transmission 
+  errors caused by the usage of inappropriate USB cables.
+* GigE Vision: Fixed a bug which prevents devices to be enumerated when the PC is not connected to a network.
+* SDK: Fixed a memory leak that occurred when device-specific event handlers were registered.
+* SDK: Fixed a potential crash in the pylon Image Window.
+* SDK: Improved Instant Camera chunk data support. Instant Camera objects now can deal with an image 
+  stream consisting of both, frames with and frames without chunk data.
+* pylon Viewer: Fixed an issue which may have caused the viewer to hang or crash when removing a USB camera.
+* USB3: Fixed an issue that could cause a deadlock when removing a USB camera.
+* IP Configurator: The IP Configurator now refuses IP addresses from the reserved address range 0.0.0.0/8.
+* pylon Viewer: Fixed an issue where the parameters of the pixel format converter could be modified without having an effect.
+* pylon Viewer: The viewer now suggests appropriate directories for saving feature settings and images.
+* pylon Viewer: Fixed a bug causing the viewer to terminate prematurely. 
+* pylon Viewer: Fixed a bug that might have led to an endless sequence of error message boxes.
+* USB3: Fixed off-by-one error in stream grabber statistics.
+* SDK: Fixed spelling in pixel type mapper strings.
+* SDK: Added missing chunk image sample for USB 3.
+* SDK: Fixed incompatibility with some UVC devices.
+* SDK: Fixed assertion which occurred on long running GigE grabs.
+* SDK: Fixed an issue where enumerating/opening cameras failed if a lot of devices are
+  connected to the USB bus.
+* SDK: Fixed issue where pylon would not shut down without killing the application.
+* SDK: Fixed issue where pylon crashes on machines without USB controller.
+
+
+RESTRICTIONS
+==================
+
+* SDK: The InstantCameraArray classes cannot acquire images from more than 21 cameras.
+* USB3: Currently, pylon has been tested with Renesas and Intel Ivy Bridge USB3 host controllers. pylon may 
+  work with other controllers, but some functionalities may not work as expected.
+* USB3: For optimum performance, make sure to install the latest driver and firmware for your USB 3.0 
+  host controller.
+* USB3: NEC USB 3.0 host controllers are not supported.
+* IP Configurator: Multiple IP configurations on a single network interface are not supported.

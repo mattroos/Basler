@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$struct_pylon_1_1_i_device.html" title="Low Level API: The interface implemented by all device objects. " alt="" coords="6,5,109,32"/>
+<area shape="rect" id="node2" href="$struct_pylon_1_1_i_pylon_device.html" title="Low Level API: Interface for camera objects. " alt="" coords="158,5,293,32"/>
+<area shape="rect" id="node3" href="$struct_pylon_1_1_i_pylon_gig_e_device.html" title="Low Level API: The interface for Basler GigE camera devices. " alt="" coords="341,5,504,32"/>
+</map>
